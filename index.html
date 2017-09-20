@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=iso-8859-2">
+  <meta name="Description" content=" [wstaw tu opis strony] ">
+  <meta name="Keywords" content=" [wstaw tu slowa kluczowe] ">
+  <meta name="Author" content=" [dane autora] ">
+  <meta name="Generator" content="kED2">
+
+  <title> Formularz </title>
+
+  <link rel="stylesheet" href=" [nazwa_arkusza_stylow.css] " type="text/css">
+</head>
+<body>
+<form>
+	<table align="center" border="1" width="600">
+		<tr>
+			<td colspan="2"><h5>Proszę o wypełnienie formularza</h5></td>
+		</tr>
+		<tr>
+			<td colspan="2">Twoje dane osobowe:</td>
+		</tr>
+		<tr>
+			<table border="1" align="center" width="600">
+			<tr>
+				<td>Podaj swoje imię</td>
+				<td><input type="text" name="imie" maxlength="30"/></td>
+			</tr>
+			<tr>
+				<td>Podaj swoje nazwisko</td>
+				<td><input type="text" name="nazwisko" maxlength="30"/></td>
+			</tr>
+			</table>
+		</tr>
+		<tr>
+			<table border="1" width="600" align="center">
+				<tr>
+					<td>Wybierz płeć</td>
+					<td><input type="radio" value="Kobieta" name="plec"/>Kobieta</td>
+					<td><input type="radio" value="Mezczyzna" name="plec"/>Mężczyzna</td>
+				</tr>
+			</table>
+		<tr>
+		<table border="1" align="center" width="600">
+			<tr>
+			<td colspan="3">Ile masz lat?</td>
+			</tr>
+			<tr>
+			<td><input type="radio" value="15-"  name="wiek"/>&lt; 15</td>
+			<td><input type="radio" value="15-25" 	name="wiek" />15 - 25</td>
+			<td><input type="radio" value="25-35"  name="wiek"/>25 - 35</td>
+			</tr>
+			<tr>
+			<td><input type="radio" value="35-45" name="wiek"/>35 - 45</td>
+			<td><input type="radio" value="45+" name="wiek"/>&gt; 45</td>
+			</tr>
+		</table>
+		</tr>
+		<tr>
+		<table border="1" width="600" align="center">
+			<tr>
+				<td colspan="3">Jaką muzykę lubisz?</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" value="muzyka" />Rock</td>
+				<td><input type="checkbox" value="muzyka" />PoP</td>
+				<td><input type="checkbox" value="muzyka" />HIP HIP</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" value="muzyka" />JAZZ</td>
+				<td><input type="checkbox" value="muzyka" />Techno</td>
+				<td><input type="checkbox" value="muzyka" />Disco Polo</td>
+			</tr>
+		</table>
+		</tr>
+		<tr>
+		<table border="1" width="600" align="center">
+			<tr>
+				<td>Jakiej przeglądarki używasz?</td>
+				<td>
+					<select name="nazwa" multiple="multiple" size="3">
+						<option>Opera</option>
+						<option>Fire Fox</option>
+						<option>Chrome</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Jakiego systemu operacyjego używasz?</td>
+				<td>
+					<select name="rodzaj">
+		<optgroup label="Windows">
+				<option>7</option>
+				<option>8</option>
+				<option>10</option>
+		</optgroup>
+		<optgroup label="Android">
+				<option>4</option>
+				<option>5</option>
+		</optgroup>
+	</select>
+				</td>
+			</tr>
+		</table>
+		</tr>
+		<tr>
+		<table border="1" align="center" width="600">
+			<tr>
+				<td colspan="2"><textarea name="komentarz" cols="80" rows="10" wrap="physical" maxlength="400">Dodaj coś od siebie :D Maksymalna ilość znaków 400.</textarea></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="submit" value="Wyślij formularz" /></td>
+				<td align="center"><input type="reset" value="Wyczyść formularz" /></td>
+			</tr>
+		</table>
+		</tr>
+
+	</table>
+</form>
+</body>
+</html>
